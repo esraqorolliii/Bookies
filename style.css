@@ -1,0 +1,39 @@
+.macondo-regular {
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.navbar-custom {
+    background-color: #dc3545;
+    padding: 15px;
+    font-size: 18px;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+.navbar-custom .nav-link:hover {
+    color: #efc6c6;
+}
+.navbar-custom .navbar-toggler {
+    border-color: #f8f9fa;
+}
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23f8f9fa' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-custom .search-bar {
+    max-width: 400px;
+    width: 100%;
+}
+.navbar-custom .dropdown-menu {
+    background-color: #dc3545;
+    border-color: #f8f9fa;
+}
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+}
+.navbar-custom .dropdown-item:hover {
+    color: #f8f9fa;
+    background-color: #c82333;
+}
