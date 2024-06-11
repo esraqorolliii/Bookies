@@ -223,7 +223,7 @@
 }
 
 .book-info {
-    padding: 0px;
+    padding: 10px;
     background-color: #f9f9f9;
     border-radius: 0 0 5px 5px;
     position: absolute;
@@ -278,4 +278,16 @@
     content: '\f07a'; /* Font Awesome code for shopping cart */
     font-family: 'Font Awesome 5 Free'; /* Specify Font Awesome family */
     font-weight: 900; /* Solid font weight */
+}
+.footer {
+    background-color: #dc3545;
+    color: white;
+    padding: 40px 0;
+}
+.footer a {
+    color: #ffffff;
+}
+.footer a:hover {
+    color: #f8f9fa;
+    text-decoration: none;
 }
