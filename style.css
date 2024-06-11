@@ -62,6 +62,99 @@
     opacity: 1;
 }
 
+/* trending */
+.image-box {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.section1 {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+    margin-bottom: 20px; /* Adjust margin between sections */
+    animation-name: identifier;
+    animation-duration: 3s; 
+    animation-delay: 1s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;  
+    animation-direction: reverse;
+    left:-130%;
+}
+
+.section2 {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+    margin-bottom: 20px; /* Adjust margin between sections */
+    animation-name: iidentifier;
+    animation-duration: 3s; 
+    animation-delay: 1s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;  
+    animation-direction: reverse;
+    left:-130%;
+}
+
+.section3 {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+    margin-bottom: 20px; /* Adjust margin between sections */
+    animation-name: identifier;
+    animation-duration: 3s; 
+    animation-delay: 1s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;  
+    animation-direction: reverse;
+    left:-130%;
+}
+
+.section4 {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+    animation-name: iidentifier;
+    animation-duration: 3s; 
+    animation-delay: 1s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;  
+    animation-direction: reverse;
+    left:-130%;
+}
+
+  @keyframes identifier {
+    100% {
+        transform: translateX(120%); 
+    }
+    0% {
+        transform: translateX(-100px); 
+    }
+}
+
+  @keyframes iidentifier {
+    0% {
+        transform: translateX(100%); /* Start position (off the right side of the screen) */
+    }
+    100% {
+        transform: translateX(80px); /* End position (80px from the left side of the screen) */
+    }
+}
+
+.footer #submit:hover {
+    background-color: #e96e7a;
+}
 
 
 .category-container {
