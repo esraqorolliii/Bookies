@@ -4,6 +4,16 @@
     font-style: normal;
     font-size: 25px;
 }
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
 .navbar-custom {
     background-color: #dc3545;
     padding: 15px;
@@ -50,4 +60,129 @@
 }
 .carousel-item.active {
     opacity: 1;
+}
+
+
+
+.category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#categori {
+    text-align: center;
+    color: #c82333;
+    font-size: 40px;
+}
+
+.category p {
+    font-size: 1em;
+    color: #666;
+}
+
+.category:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.book-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 30px;
+}
+
+.book {
+    width: 220px;
+    height: 350px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.book:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #c82333;
+}
+
+.book img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-info {
+    padding: 0px;
+    background-color: #f9f9f9;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+}
+
+.book-info h2 {
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.book-info p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-evenly;;
+}
+
+
+
+/* .wishlist-icon:hover {
+    color: red; 
+}
+
+.cart-icon:hover {
+    color: blue; 
+} */
+
+.wishlist-icon:hover {
+    color: red; 
+}
+
+.cart-icon:hover {
+    color: blue; 
+}
+
+.wishlist-icon:hover::before {
+    content: '\f004'; /* Font Awesome code for filled heart */
+    font-family: 'Font Awesome 5 Free'; /* Specify Font Awesome family */
+    font-weight: 900; /* Solid font weight */
+}
+
+.cart-icon:hover::before {
+    content: '\f07a'; /* Font Awesome code for shopping cart */
+    font-family: 'Font Awesome 5 Free'; /* Specify Font Awesome family */
+    font-weight: 900; /* Solid font weight */
 }
