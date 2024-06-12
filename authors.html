@@ -10,6 +10,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+      .containerr {
+        margin-top: 120px;
+      }
+      .content-container {
+        display: flex;
+        align-items: center;
+        height: 250px;
+        border: 1px solid black;
+        margin: 20px 250px;
+        position: relative;
+        box-shadow: 3px 3px red;
+        border-radius: 10px;
+      }
+      .pixi-container {
+        position: absolute;
+        /* top: 2px; */
+        right: 10px;
+        width: 200px;
+        height: 250px;
+      }
+      .text-side {
+        padding: 20px;
+        flex: 1;
+      }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
@@ -34,8 +60,7 @@
                 <a class="nav-link" href="authors.html">Authors</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="bestsellers.html">Best Sellers</a>
-              </li>
+                <a class="nav-link" href="bestsellers.html">Best Sellers</a></li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   More
@@ -52,59 +77,142 @@
         </div>
     </nav>
 
-
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <!-- About Us -->
-                <div class="col-md-3">
-                    <h5>About Us</h5>
-                    <p>We are an independent bookstore offering a curated selection of books for every reader.</p>
-                </div>
-                <!-- Quick Links -->
-                <div class="col-md-3">
-                    <h5>Quick Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-                <!-- Contact Info -->
-                <div class="col-md-3">
-                    <h5>Contact Info</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="tel:+1234567890">+1 234 567 890</a></li>
-                        <li><a href="mailto:info@bookstore.com">info@bookstore.com</a></li>
-                        <li><a href="#">123 Book Street, City, Country</a></li>
-                    </ul>
-                </div>
-                <!-- Follow Us -->
-                <div class="col-md-3">
-                    <h5>Follow Us</h5>
-                    <a href="#" class="btn btn-outline-light btn-sm mr-2"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="btn btn-outline-light btn-sm mr-2"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p class="mb-0">&copy; 2024 Bookies. All rights reserved.</p>
-                </div>
-            </div>
+    <div class="containerr">
+      <h1 style="text-align: center; text-decoration: underline; color: #fe5566; font-size: 50px;" class="macondo-regular">Authors</h1>
+      <div class="row content-container">
+        <div class="pixi-container" id="pixi-container-1"></div>
+        <div class="col-md-6 text-side">
+          <h2 class="pacifico-regular">Ismail Kadare</h2>
+          <p class="great-vibes-regular">His nominating juror for the Neustadt Prize wrote: "Kadare is the successor of Franz Kafka. No one <br> since Kafka has delved into the infernal mechanism of totalitarian power and its impact on the human soul <br> in as much hypnotic depth as Kadare." His writing has also been compared to that of Nikolai Gogol, <br> George Orwell, Gabriel García Márquez, Milan Kundera, and Balzac.</p>
         </div>
-    </footer>
-    
-    
+      </div>
+      <div class="row content-container">
+        <div class="pixi-container" id="pixi-container-2"></div>
+        <div class="col-md-6 text-side">
+          <h2 class="pacifico-regular">William Sheakespear</h2>
+          <p class="great-vibes-regular">Shakespeare was born and raised in Stratford-upon-Avon, Warwickshire. At the age of 18, he <br> married Anne Hathaway, with whom he had three children: Susanna, and twins <br> Hamnet and Judith. Sometime  between 1585 and 1592, he began a successful career <br>in London  as an actor, writer, and part-owner ("sharer") of a playing company called<br> the Lord Chamberlain's Men, later known  as the King's Men after the ascension of King James VI of <br>Scotland to the English throne.</p>
+        </div>
+      </div>
+      <div class="row content-container">
+        <div class="pixi-container" id="pixi-container-3"></div>
+        <div class="col-md-6 text-side">
+          <h2 class="pacifico-regular">Elif Shafak</h2>
+          <p class="great-vibes-regular">Shafak was born in Strasbourg, France, to Nuri Bilgin, a philosopher, and Şafak Atayman, who later <br> became a diplomat. After her parents separated, Shafak returned to Ankara, Turkey, where she <br> was raised by her mother and maternal grandmother. She says that growing up in a dysfunctional family <br> was difficult, but that growing up in a non-patriarchal environment had a beneficial impact on her. <br> Having grown up without her father, she met her half-brothers for the <br> first time when she was in her mid-twenties.</p>
+        </div>
+      </div>
+      <div class="row content-container">
+        <div class="pixi-container" id="pixi-container-4"></div>
+        <div class="col-md-6 text-side">
+          <h2 class="pacifico-regular">Dante Alighieri</h2>
+          <p class="great-vibes-regular">Dante is known for establishing the use of the vernacular in literature at a time when most poetry <br> was written in Latin, which was accessible only to educated readers. His De vulgari eloquentia <br> (On Eloquence in the Vernacular) was one of the first scholarly defenses of the vernacular. <br> His use of the Florentine dialect for works such as The New Life (1295) and Divine Comedy helped <br> establish the modern-day standardized Italian language.</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer mt-auto">
+      <div class="container">
+          <div class="row">
+              <!-- About Us -->
+              <div class="col-md-3">
+                  <h5>About Us</h5>
+                  <p>We are an independent bookstore offering a curated selection of books for every reader.</p>
+              </div>
+              <!-- Quick Links -->
+              <div class="col-md-3">
+                  <h5>Quick Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Shop</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                  </ul>
+              </div>
+              <!-- Contact Info -->
+              <div class="col-md-3">
+                  <h5>Contact Info</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+                      <li><a href="mailto:info@bookstore.com">info@bookstore.com</a></li>
+                      <li><a href="#">123 Book Street, City, Country</a></li>
+                  </ul>
+              </div>
+              <!-- Follow Us -->
+              <div class="col-md-3">
+                  <h5>Follow Us</h5>
+                  <a href="#" class="btn btn-outline-light btn-sm mr-2"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="btn btn-outline-light btn-sm mr-2"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="btn btn-outline-light btn-sm"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-md-12 text-center">
+                  <p class="mb-0">&copy; 2024 Bookies. All rights reserved.</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    <script type="module">
+      import { Application, Assets, Sprite } from 'https://cdn.skypack.dev/pixi.js@7.x.x';
+
+      const imagesForContainers = {
+        'pixi-container-1': ['https://upload.wikimedia.org/wikipedia/commons/2/24/Ismail_Kadare_%28portret%29.jpg', 'https://upload.wikimedia.org/wikipedia/en/3/31/The_Siege_%28Kadare_novel%29.jpg'],
+        'pixi-container-2': ['https://upload.wikimedia.org/wikipedia/commons/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg', 'https://upload.wikimedia.org/wikipedia/commons/d/df/Hamlet.jpg'],
+        'pixi-container-3': ['https://upload.wikimedia.org/wikipedia/commons/1/16/Elif_Shafak_photo.jpg', 'https://upload.wikimedia.org/wikipedia/en/b/b2/The_Forty_Rules_of_Love_cover.jpg'],
+        'pixi-container-4': ['https://upload.wikimedia.org/wikipedia/commons/6/6f/Portrait_de_Dante.jpg', 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Joseph_Anton_Koch%2C_purgatorio%2C_1825-28%2C_15.jpg']
+      };
+
+      async function initializePixi(containerId, imageUrls) {
+        try {
+          const width = 200;
+          const height = 250;
+          const app = new Application({
+            width: width,
+            height: height,
+            backgroundAlpha: 0, // Transparent background
+          });
+
+          const container = document.getElementById(containerId);
+          if (!container) {
+            console.error(`Container with id "${containerId}" not found.`);
+            return;
+          }
+
+          container.appendChild(app.view);
+
+          let currentImageIndex = 0;
+          const texture = await Assets.load(imageUrls[currentImageIndex]);
+          const sprite = new Sprite(texture);
+          sprite.anchor.set(0.5);
+          sprite.x = width / 2;
+          sprite.y = height / 2;
+          sprite.width = 180;
+          sprite.height = 200;
+          app.stage.addChild(sprite);
+
+          sprite.interactive = true;
+          sprite.buttonMode = true;
+          sprite.on('pointertap', async () => {
+            currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
+            const newTexture = await Assets.load(imageUrls[currentImageIndex]);
+            sprite.texture = newTexture;
+          });
+        } catch (error) {
+          console.error('Error initializing PixiJS:', error);
+        }
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        for (const [containerId, imageUrls] of Object.entries(imagesForContainers)) {
+          initializePixi(containerId, imageUrls);
+        }
+      });
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
