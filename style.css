@@ -264,10 +264,14 @@
     color: red; 
 }
 
-.cart-icon:hover {
-    color: blue; 
+a:hover .fas.fa-shopping-cart.cart-icon {
+    color: blue; /* Change color on hover */
 }
+a .fas.fa-shopping-cart.cart-icon {
+    color: black; /* Inherit color from the parent element */
+    text-decoration: none; /* Remove underline */
 
+}
 .wishlist-icon:hover::before {
     content: '\f004'; /* Font Awesome code for filled heart */
     font-family: 'Font Awesome 5 Free'; /* Specify Font Awesome family */
@@ -291,5 +295,6 @@
     color: #f8f9fa;
     text-decoration: none;
 }
+
 
 
