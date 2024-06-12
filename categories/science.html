@@ -20,6 +20,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
         <div class="container-fluid">
+            <img src="../img/book.png" style="width: 30px; height: auto; padding-right: 5px;" alt="Book Logo">
           <a class="navbar-brand macondo-regular" href="../index.html">Bookies</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -64,6 +65,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">Cosmos</h2>
             <p>by Stephen Hawking</p>
+            <p class="price">$19.99</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -75,6 +77,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">The Selfish Gene</h2>
             <p>by Richard Dawkins</p>
+            <p class="price">$19.99</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -86,6 +89,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">The Gene: An Intimate History</h2>
             <p>by Siddhartha Mukherjee</p>
+            <p class="price">$19.99</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -97,6 +101,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">Gödel, Escher, Bach</h2>
             <p>by Douglas Hofstadter</p>
+            <p class="price">$20.99</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -108,6 +113,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">The Elegant Universe</h2>
             <p>by Brian Greene</p>
+            <p class="price">$23.99</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -119,6 +125,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">A Brief History of Time</h2>
             <p>by Stephen Hawking</p>
+            <p class="price">$32.80</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -130,6 +137,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">A Brief History of Time</h2>
             <p>by Stephen Hawking</p>
+            <p class="price">$34.90</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -141,6 +149,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">The Structure of Scientific</h2>
             <p>by Stephen Hawking</p>
+            <p class="price">$25.99</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -152,6 +161,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">The Demon-Haunted World</h2>
             <p>by Stephen Hawking</p>
+            <p class="price">$29.99</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -163,6 +173,7 @@
         <div class="book-info">
             <h2 class="great-vibes-regular">A Brief History of Time</h2>
             <p>by Stephen Hawking</p>
+            <p class="price">$15.99</p>
             <div class="actions">
                 <i class="far fa-heart wishlist-icon"></i>
                 <i class="fas fa-shopping-cart cart-icon"></i>
@@ -171,22 +182,8 @@
     </div>
 </section>
 
-<script>
-    // Get all elements with the class 'cart-icon'
-    const cartIcons = document.querySelectorAll('.cart-icon');
+<script src="../script.js"></script>
 
-    // Loop through each cart icon
-    cartIcons.forEach(icon => {
-        // Create a new anchor element
-        const anchor = document.createElement('a');
-        // Set the href attribute of the anchor element
-        anchor.setAttribute('href', '../purchase.html');
-        // Append the anchor element before the icon
-        icon.parentNode.insertBefore(anchor, icon);
-        // Move the icon inside the anchor element
-        anchor.appendChild(icon);
-    });
-</script>
 <footer class="footer">
     <div class="container">
         <div class="row">
